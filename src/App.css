@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(images/ekonomist-image-86--21b25f9be3ca45.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

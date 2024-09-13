@@ -1,0 +1,81 @@
+.currency-div {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  margin-top: 50px;
+  border: 1px solid black;
+  width: 500px;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.title{
+  font-size: 22px;
+  border-bottom: 1px solid black;
+  margin-top: -20px;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.first-currency-option,
+.second-currency-option {
+  width: 70px;
+  height: 32px;
+  display: flex;
+  border-radius: 13px;
+  text-align: center; /* Metni ortalamak için */
+  text-align-last: center; /* Seçilen değeri ortalamak için */
+  border-radius: 15px; /* Kenarları oval yapmak için */
+  -webkit-appearance: none; /* Tarayıcı varsayılan stilini kaldırmak için */
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.first-currency-option option,
+.second-currency-option option {
+  text-align: center; /* Seçeneklerin metnini ortalamak için */
+}
+
+
+.amount-input,
+.result-input {
+  width: 100px;
+  height: 20px;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.arrow{
+  font-size: 40px;
+}
+
+.currency-main{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ gap: 10px;
+}
+
+.btn{
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  border-radius: 15px;
+}
+
+.btn:hover{
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Number input spinner'ları kaldırmak için */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
